@@ -1,6 +1,6 @@
 # FastApi Backend
 
- This project implements a user authentication system using **JWT** (JSON Web Tokens) with **FastAPI** and **MongoDB**. It includes a user CRUD system with secured endpoints and implements role-based access control (RBAC) for fine-grained authorization. This project also covers logging support, predefined Pydantic models, and is structured for scalability. The system is designed for deployment on cloud platforms like **MongoDB Atlas** and **Render** (or any other free serverless service).
+ This project implements a user authentication system using **JWT** (JSON Web Tokens) with **FastAPI** and **MongoDB**. It includes a user CRUD system with secured endpoints and implements role-based access control (RBAC)  for fine-grained authorization. This project also covers logging support, predefined Pydantic models, and is structured for scalability. The system is designed for deployment on cloud platforms like **MongoDB Atlas** and **Render** (or any other free serverless service).
 
 ## Features
 
@@ -31,11 +31,28 @@
 - **Endpoint**: `POST /users/`
 - **Description**: all users list but admin have only access
 
-
 ## Deployment
 
-The FastApi backend has been deployed on Render . You can access the live version of the backend at the following URL:
+  The FastApi backend has been deployed on Render . You can access the live version of the backend at  the following URL:
 
-https://fast-api-task-cpfq.onrender.com
+  https://fast-api-task-cpfq.onrender.com
+
+## Running Locally
+
+Follow the steps below to run this project on your local machine:
+
+### 1. Clone the Repository
+
+First, clone the GitHub repository to your local machine:
+   ```bash
+       git clone https://github.com/Meet763/fast-api-task
+       cd fast-api-task
+     
+### 2. Set Up Virtual Environment
+
+  Create and activate a virtual environment to isolate your project dependencies:
+ 
+
+
 
 
