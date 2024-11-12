@@ -1,4 +1,4 @@
-# FlasApi Backend
+# FastApi Backend
 
  This project implements a user authentication system using **JWT** (JSON Web Tokens) with **FastAPI** and **MongoDB**. It includes a user CRUD system with secured endpoints and implements role-based access control (RBAC) for fine-grained authorization. This project also covers logging support, predefined Pydantic models, and is structured for scalability. The system is designed for deployment on cloud platforms like **MongoDB Atlas** and **Render** (or any other free serverless service).
 
