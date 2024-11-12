@@ -44,27 +44,23 @@ Follow the steps below to run this project on your local machine:
 ### 1. Clone the Repository
 First, clone the GitHub repository to your local machine: 
 
-    ```bash
     git clone https://github.com/Meet763/fast-api-task
     cd fast-api-task
 
 ### 2. Clone the Repository
 Create and activate a virtual environment to isolate your project dependencies:
 
-    ```bash
     python -m venv venv
     .\venv\Scripts\activate
 
 ### 3. Install Dependencies
 Once the virtual environment is activated, install the necessary dependencies:
 
-    ```bash
     pip install -r requirements.txt
 
 ### Run the FastAPI Application
 To run the FastAPI application, execute the following command:
 
-    ```bash
     fastapi run main.py
 
 The server will start, and you can access the backend at http://127.0.0.1:8000.
