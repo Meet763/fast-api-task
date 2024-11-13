@@ -21,12 +21,12 @@
 - **Endpoint**: `POST /auth/login`
 - **Description**: Authenticates a user and returns a JWT.
 
-### 3. Create Quiz
+### 3. User Profile
 
 - **Endpoint**: `POST /users/profile`
 - **Description**: user can see own profile.
 
-### 4. Submit Quiz
+### 4. All Users List
 
 - **Endpoint**: `POST /users/`
 - **Description**: all users list but admin have only access
